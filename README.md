@@ -2,7 +2,7 @@
 
 This is a template to start a python project
 
-## Explanation of each part
+## Conf files
 file: **.coverage**
 This file has the options for the test coverage report
 
