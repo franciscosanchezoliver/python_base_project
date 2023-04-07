@@ -1,6 +1,6 @@
 # Base Project Template
 
-This is a template to start a python project
+This is a template to start a python project from scratch
 
 ## Conf files
 file: **.coverage**
