@@ -1,3 +1,3 @@
-# Title of your base project
+# Base Project Template
 
-Some text
+This is a template to start a python project
