@@ -6,14 +6,11 @@ This documents go through the process of managing environments.
 ### From zero
 1. Go to the project directory
 2. Create the environment 
-    > python -m venv your_environment_name
+    > python -m venv venv
 3. Activate the environment
-    > .\your_environment_name\Scripts\activate
+    > .\venv\Scripts\activate
 
-### From an existing requirements.txt file
-Then use the resulting requirements.txt to create a pip virtual environment:
-python3 -m venv env
-source env/bin/activate
+### Install libraries existing libraries into the environment
 pip install -r requirements.txt
 
 ## (re)create requirements.txt
