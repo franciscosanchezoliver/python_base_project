@@ -20,3 +20,6 @@ Main configuration of your python project
 
 file: **setup.py**
 Uses the configuration of the setup.cfg file
+
+file: **.github/workflows/python-app.yml**
+File that handles the CI/CD pipeline
