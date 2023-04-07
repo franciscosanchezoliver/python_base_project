@@ -1,5 +1,5 @@
 ## Flake8
-flake8 sentinel/
+flake8 source_directory/
 
 ### Error codes
 https://pep8.readthedocs.io/en/latest/intro.html#error-codes
