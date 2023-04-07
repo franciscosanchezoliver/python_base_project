@@ -6,9 +6,9 @@ This documents go through the process of managing environments.
 ### From zero
 1. Go to the project directory
 2. Create the environment 
-    > python -m venv sentinel-env
+    > python -m venv your_environment_name
 3. Activate the environment
-    > .\sentinel-env\Scripts\activate
+    > .\your_environment_name\Scripts\activate
 
 ### From an existing requirements.txt file
 Then use the resulting requirements.txt to create a pip virtual environment:
@@ -16,19 +16,9 @@ python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 
-
 ## (re)create requirements.txt
-### ❤️From our local python virtual environment
+### From our local python virtual environment
 > pip list --format=freeze > requirements.txt
-
-### 💥❗ Create requirements from an anaconda environment (discourage)
-You can create the requirements.txt from an anaconda environment but this 
-method isn't recommended as the output isn't 100% compatible with pip
-> conda list -e > requirements.txt
-
-## Activate environment
-1. Go to the project directory
-2. .\sentinel-env\Scripts\activate
 
 ## Links
 ### requirements.txt vs setup
