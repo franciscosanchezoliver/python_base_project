@@ -1,3 +1,8 @@
+# GitHub
+
+You can create your own CI/DI pipelines using GitHub. 
+You'll find information about how to handle pipelines.
+
 ## Trigger branches
 > on:\
 >   push:\
